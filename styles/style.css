@@ -13,7 +13,7 @@
 
 /* header style */
 .new-year{
-    background-image: url(../resources/BannerImage.png);
+    background-image: url('../resources/BannerImage.png');
     border-radius: 16px;
     margin-top: 15px;
     background-repeat: no-repeat;
@@ -89,4 +89,59 @@ header h1{
     margin-bottom: 48px;
 }
 
-    
+/* party style */
+.party{
+    background-image: url('../resources/Vectorrr.png');
+    display: flex;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    gap: 40px;
+}
+
+.party .party-content h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.party .party-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 40px;
+}
+
+.party .party-content a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.party-content{
+    max-width: 697px;
+    width: 53%;
+    padding-left: 126px;
+    padding-bottom: 126px;
+    padding-top: 126px;
+}
+.party-img{
+    max-width: 320px;
+    width: 25%;
+    padding-right: 126px;
+    padding-bottom: 126px;
+    padding-top: 126px;
+}
