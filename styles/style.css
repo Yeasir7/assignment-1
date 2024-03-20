@@ -324,8 +324,65 @@ header h1{
     background-image: url('../resources/Rectangle1.png'), url('../resources/Rectangle2.png');
     background-repeat: no-repeat;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-position: right top, bottom;
     margin: 0px 100px;
+}
+
+/* awesome style */
+.awesome{
+    margin-bottom: 100px;
+}
+
+.awesome h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.awesome h2{
+    color: #070211;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   margin-bottom: 20px;
+}
+
+.awesome p{
+    color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; 
+   margin-bottom: 45px;
+}
+
+.awesome-row1,
+.awesome-row2{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.awesome-row1 img,
+.awesome-row2 img{
+    width: 335px;
+   height: 350px;
+}
+
+.awesome-row1 img:hover,
+.awesome-row2 img:hover{
+    border: 2px solid midnightblue;
+    border-radius: 16px;
 }
 
