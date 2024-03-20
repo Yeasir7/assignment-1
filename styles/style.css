@@ -272,3 +272,60 @@ header h1{
     line-height: 32px;
     margin-bottom: 40px;
 }
+
+/* holiday style */
+.holiday{
+    margin-bottom: 100px;
+}
+.holiday h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.holiday h2{
+    color: #070211;
+   font-family: Merriweather;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-align: center;
+}
+
+.holiday h2 span{
+    color: #F00;
+    font-family: Merriweather;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+}
+
+.holiday p{
+    color: rgba(7, 2, 17, 0.60);
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 32px; 
+   max-width: 1068px;
+   width: 80%;
+   padding-left: 100px;
+   margin-bottom: 60px;
+}
+
+.holiday-img{
+    background-image: url('../resources/Rectangle1.png'), url('../resources/Rectangle2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: right top, bottom;
+    margin: 0px 100px;
+}
+
