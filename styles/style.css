@@ -17,6 +17,7 @@
     border-radius: 16px;
     margin-top: 15px;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 header h3{
@@ -37,9 +38,55 @@ header h1{
     line-height: 95px; 
     font-family: Merriweather;
     font-style: normal;
+    margin-top: 15px;
 }
 
 .new{
-    padding: 199px 256px;
+    padding: 199px 240px;
 
 }
+
+/* main style */
+
+/* discount section style */
+.discount-container{
+    max-width: 803px;
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+.discount-container .content h2{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.discount-container .content h4{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    font-family: Inter;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.discount-container .content h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+    
