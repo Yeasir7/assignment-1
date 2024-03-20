@@ -189,3 +189,86 @@ header h1{
    padding: 5px 30px;
    margin-top: 50px;
 }
+
+/* offer style */
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.left-text{
+    width: 393px;
+}
+
+.left-text h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.left-text h2{
+    color: #070211;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   margin-bottom: 22px;
+}
+
+.left-text p{
+    color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; 
+}
+
+.middle-img {
+    width: 463px;
+    height: 463px;
+    border: 15px solid #F00;
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.middle-img img {
+    width: 325px;
+    height: 375px; 
+}
+
+
+
+.right-text{
+    width: 276px;
+}
+
+.right-text h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: normal;
+}
+
+.right-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
