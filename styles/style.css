@@ -145,3 +145,47 @@ header h1{
     padding-bottom: 126px;
     padding-top: 126px;
 }
+
+/* plan-stye */
+.plan{
+    background-color: rgb(245, 233, 235);
+    margin-bottom: 100px;
+}
+
+.plan-content{
+    padding: 100px 250px;
+    text-align: center;
+}
+
+.plan .plan-content h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.plan .plan-content h3 span{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.plan .plan-content button{
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   padding: 5px 30px;
+   margin-top: 50px;
+}
